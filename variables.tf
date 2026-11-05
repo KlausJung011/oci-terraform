@@ -1,0 +1,16 @@
+variable "tenancy_ocid" {}
+variable "user_ocid" {}
+variable "fingerprint" {}
+variable "private_key_path" {}
+variable "region" {}
+variable "compartment_ocid" {}
+variable "ubuntu_2404_image_ocid" {
+    description = "ocid de la imagen para ubuntu 24.04"
+}
+variable "ssh_public_key" {
+    description = "contenido de la llave publica oara ssh"
+}
+variable "subnet_ocid" {}
+variable "availability_domain" {}
+
+
